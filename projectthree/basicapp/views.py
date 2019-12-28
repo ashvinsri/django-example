@@ -93,7 +93,7 @@ def user_login(request):
             return HttpResponse("Invalid Detail supplied")
 
     else:
-        return render(request,'login.html',{})
+        return render(request,'Login.html',{})
 
 
 
